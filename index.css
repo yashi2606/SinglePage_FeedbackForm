@@ -1,0 +1,209 @@
+
+.container{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.about-content {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.about-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    transition: transform 0.5s ease-in-out;
+}
+
+.about-image img:hover {
+    transform: scale(1.1); /* Makes the image grow */
+}
+
+.about-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.about-content p {
+    font-size: 1.2rem;
+    color: #555;
+}
+.body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f9;
+    color: #333;
+  }
+  
+  /* .h1 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+  } */
+  
+  .features-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .feature-box {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .feature-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+  }
+  
+  .feature-box.expanded {
+    transform: scale(1.2);
+    z-index: 10;
+    background-color: #fff;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    font-size: 50px;
+    color: #007bff;
+    margin-bottom: 15px;
+  }
+  
+  .h3 {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .hidden-content {
+    font-size: 0.9em;
+    color: #666;
+    display: none;
+  }
+  
+  .feature-box.expanded .hidden-content {
+    display: block;
+    margin-top: 10px;
+  }
+
+  /* //contanct us wala pat */
+  .body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #e9c5ff, #c9a1f7);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .contact-container {
+    text-align: center;
+  }
+  
+  .h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #4a0072;
+  }
+  
+  .contact-card {
+    background: #fff;
+    padding: 30px 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .h2 {
+    font-size: 1.5em;
+    color: #6c757d;
+    margin-bottom: 30px;
+  }
+  
+  .contact-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .contact-item i {
+    font-size: 30px;
+    color: #6a1b9a;
+    margin-right: 15px;
+  }
+  
+  .contact-item h3 {
+    margin: 0;
+    font-size: 1.2em;
+    color: #4a0072;
+  }
+  
+  .contact-item p {
+    margin: 5px 0 0;
+    color: #6c757d;
+  }
+  
+  .contact-item a {
+    color: #6a1b9a;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .contact-item a:hover {
+    color: #4a0072;
+  }
+
+  .display-6 {
+    font-weight:bold;
+    text-align: start;
+  }
+.display-5{
+    font-weight: bold;
+}
+.text-muted{
+    font-style: italic;
+    font-weight:bold;
+    
+}
+
+.unique{
+    text-align: center;
+}
